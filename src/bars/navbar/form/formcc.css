@@ -1,0 +1,16 @@
+.Form {
+    height: 100%;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width:1200px) {
+    .Form {
+        margin-left: 10rem;
+        width: 50%;
+        align-items: center;
+        margin-right: 10rem;
+    }
+    .wrapper {
+        gap: 5rem;
+    }
+}

@@ -1,0 +1,17 @@
+.chart {
+    flex-direction: column;
+    flex: 6;
+    -webkit-box-shadow: 2px 4px 10px 1px #000000;
+    box-shadow: 2px 4px 10px 1px #bea2a2;
+    color: bisque;
+    stroke: aqua;
+}
+
+.title {
+    font-size: 20px;
+    color: #cab1b1;
+}
+
+path {
+    stroke: rgb(189, 149, 227);
+}

@@ -1,0 +1,64 @@
+.navbar {
+    height: 3.4rem;
+    border-bottom: .5px solid rgb(33, 33, 43);
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(35, 45, 45);
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.wrapper {
+    width: 100%;
+    gap: 2rem;
+    padding: .65rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.items {
+    margin-top: 0.23rem;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.icons {
+    display: flex;
+    margin-right: 1rem;
+    color: rgb(251, 251, 244);
+}
+
+.search {
+    display: flex;
+    border-color: black;
+    border: 1px solid grey;
+    color: aqua;
+}
+
+input {
+    border: none;
+}
+
+.pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.fig {
+    font-size: 1px;
+    width: 10px;
+    height: 10px;
+}
+
+@media screen and (max-width:1200px) {
+    .navbar {
+        width: 100%
+    }
+    .wrapper {
+        align-items: flex-end;
+    }
+}
