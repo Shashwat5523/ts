@@ -5,7 +5,6 @@ import ProductionQuantityLimitsSharpIcon from '@mui/icons-material/ProductionQua
 import BarChartSharpIcon from '@mui/icons-material/BarChartSharp';
 import SwitchAccountSharpIcon from '@mui/icons-material/SwitchAccountSharp';
 
-
 const Widgets = ({ type }) => {
     let data;
     const amount = 100; 
